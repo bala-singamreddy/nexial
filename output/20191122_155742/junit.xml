@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191122_155742" timestamp="2019-11-22T15:57:42" time="35.121" tests="7" errors="0">
+  <testsuite id="1001" name="1 MyFirstProject" package="1 MyFirstProject" hostname="ATMECSINLT-279" timestamp="2019-11-22T15:57:44" time="30.645" tests="7" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-279" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Balakrishna.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyFirstProject.xlsx" />
+      <property name="Logs" value="C:\projects\nexial\output\20191122_155742\logs\nexial-20191122_155742.log" />
+      <property name="Data File" value="MyFirstProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default, HRM" />
+      <property name="runtime args" value="-plan C:\projects\nexial\artifact\plan\Test-plan.xlsx" />
+    </properties>
+    <testcase id="Macro-testing" name="Macro-testing" classname="HRM" timestamp="2019-11-22T15:57:48" time="26.460">
+      <system-out>Total : 7
+Passed: 7
+Failed: 0
+Output: C:\projects\nexial\output\20191122_155742\Test-plan.001,MyFirstProject.20191122_155744.001.xlsx
+Logs  : C:\projects\nexial\output\20191122_155742\logs\nexial-20191122_155742.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

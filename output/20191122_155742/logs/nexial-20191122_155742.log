@@ -1,0 +1,113 @@
+2019-11-22 15:57:42,907|I|Thread-1|(DELAYED) nexial-core dev_0704 starting up...
+2019-11-22 15:57:42,914|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 15:57:42,914|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:57:42,914|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-11-22 15:57:42,914|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-11-22 15:57:42,914|I|Thread-1|(DELAYED) [20191122_155742] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20191122_155742
+2019-11-22 15:57:42,915|I|Thread-1|(DELAYED) [20191122_155742] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] new thread started
+2019-11-22 15:57:42,915|I|Thread-1|No predefined nexial-setup found
+2019-11-22 15:57:43,043|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-11-22 15:57:43,044|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-11-22 15:57:43,048|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-11-22 15:57:43,073|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-11-22 15:57:44,007|I|Thread-1|[20191122_155742] executing C:\projects\nexial\artifact\script\MyFirstProject.xlsx with 1 iteration(s)
+2019-11-22 15:57:44,014|I|Thread-1|[20191122_155742] create directory C:\projects\nexial\output\20191122_155742\captures
+2019-11-22 15:57:44,015|I|Thread-1|[20191122_155742] create directory C:\projects\nexial\output\20191122_155742\logs
+2019-11-22 15:57:46,017|I|Thread-1|macro(s) found and merged; C:\projects\nexial\output\20191122_155742\Test-plan.001,MyFirstProject.20191122_155744.001.xlsx will need to be saved
+2019-11-22 15:57:46,017|I|Thread-1|[20191122_155742] merging test data to tmp file C:\projects\nexial\output\20191122_155742\Test-plan.001,MyFirstProject.20191122_155744.001.xlsx
+2019-11-22 15:57:46,017|I|Thread-1|refetching data from C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:57:46,377|I|Thread-1|[20191122_155742] test script and test data merged to C:\projects\nexial\output\20191122_155742\Test-plan.001,MyFirstProject.20191122_155744.001.xlsx
+2019-11-22 15:57:48,072|I|Thread-1|STARTS
+2019-11-22 15:57:48,182|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001 - executing iteration #1 of 1; Iteration Id 2
+2019-11-22 15:57:48,197|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM - executing test scenario
+2019-11-22 15:57:48,197|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing - executing activity
+2019-11-22 15:57:48,798|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  5|base.section(steps) - executing section(steps)(6)
+2019-11-22 15:57:48,812|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  5|base.section(steps) - PASS null
+2019-11-22 15:57:49,414|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  6|web.open(url) - executing open(url)(${hrmURL})
+2019-11-22 15:57:49,417|I|Thread-1|No valid instance of webdriver, initializing...
+2019-11-22 15:57:49,422|I|Thread-1|init firefox
+2019-11-22 15:57:54,942|I|Thread-1|browser initialization completed for 'firefox'
+2019-11-22 15:57:54,958|I|Thread-1|setting browser polling wait time to 800 ms
+2019-11-22 15:57:54,973|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-11-22 15:58:00,196|I|Thread-1|current browser window handle:18
+2019-11-22 15:58:00,507|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-11-22 15:58:01,109|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  7|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${featuresBtn}, 3000)
+2019-11-22 15:58:01,142|I|Thread-1|clicking '//a[@href='/features/']'...
+2019-11-22 15:58:01,177|I|Thread-1|click target via JS, @id=
+2019-11-22 15:58:01,238|I|Thread-1|clicked -> true
+2019-11-22 15:58:04,489|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  7|web.clickAndWait(locator, - PASS clicked-and-waited '//a[@href='/features/']'
+2019-11-22 15:58:05,116|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  8|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${sysAdminLink}, 3500)
+2019-11-22 15:58:05,148|I|Thread-1|clicking '//h4[text()='System Administration & User Roles']/parent::a'...
+2019-11-22 15:58:05,163|I|Thread-1|click target via JS, @id=
+2019-11-22 15:58:05,194|I|Thread-1|clicked -> true
+2019-11-22 15:58:08,729|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  8|web.clickAndWait(locator, - PASS clicked-and-waited '//h4[text()='System Administration & User Roles']/parent::a'
+2019-11-22 15:58:09,339|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  9|web.scrollTo(locator) - executing scrollTo(locator)(${requestQuoteBtn})
+2019-11-22 15:58:09,385|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|#  9|web.scrollTo(locator) - PASS scrolled to '//a[text()='Request A Quote']'
+2019-11-22 15:58:09,986|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|# 10|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${requestQuoteBtn}, 3000)
+2019-11-22 15:58:10,019|I|Thread-1|clicking '//a[text()='Request A Quote']'...
+2019-11-22 15:58:10,038|I|Thread-1|click target via JS, @id=
+2019-11-22 15:58:10,091|I|Thread-1|clicked -> true
+2019-11-22 15:58:13,683|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|# 10|web.clickAndWait(locator, - PASS clicked-and-waited '//a[text()='Request A Quote']'
+2019-11-22 15:58:14,298|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|# 11|web.assertText(locator,te - executing assertText(locator,text)(${requestQuoteText}, ${quoteAssert})
+2019-11-22 15:58:14,376|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155744.001|HRM|Macro-testing|# 11|web.assertText(locator,te - PASS null
+2019-11-22 15:58:14,454|I|Thread-1|[Test-plan.001,MyFirstProject.20191122_155744.001|HRM] saving test scenario
+2019-11-22 15:58:14,563|I|Thread-1|[20191122_155742] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\nexial\output\20191122_155742\Test-plan.001,MyFirstProject.20191122_155744.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 26381 ms
+» Test Steps:     7
+» Error(s):       0
+
+
+
+2019-11-22 15:58:17,528|I|Thread-1|[20191122_155742] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 34859 ms
+» Iterations:     [2] total 1
+» Test Steps:     7
+» Passed:         7
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\nexial\output\20191122_155742\Test-plan.001,MyFirstProject.20191122_155744.001.xlsx
+
+
+
+2019-11-22 15:58:17,706|I|main|[20191122_155742] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] now completed
+2019-11-22 15:58:17,711|I|main|[20191122_155742] all execution thread(s) have terminated
+2019-11-22 15:58:17,712|I|main|[20191122_155742] test run completed in about 35 seconds
+2019-11-22 15:58:17,842|I|main|No predefined nexial-setup found
+2019-11-22 15:58:18,218|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-11-22 15:58:18,223|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-11-22 15:58:18,235|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-11-22 15:58:18,239|I|main|generating HTML output for this execution to C:\projects\nexial\output\20191122_155742\execution-output.html
+2019-11-22 15:58:19,456|I|main|generating JUnit XML output for this execution to C:\projects\nexial\output\20191122_155742\junit.xml
+2019-11-22 15:58:19,526|I|main|generated JUnit report for this execution: C:\projects\nexial\output\20191122_155742\junit.xml
+2019-11-22 15:58:19,646|I|main|Sending email to [balusingamreddy@yahoo.com]
+2019-11-22 15:58:24,279|E|main|Unable to send out notification email: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b13sm6306041pgj.28 - gsmtp
+
+2019-11-22 15:58:24,282|I|main|exiting Nexial...
+2019-11-22 15:58:24,286|I|main|shutdown starts...
+2019-11-22 15:58:24,287|I|main|Shutting down 'firefox' webdriver...
+2019-11-22 15:58:25,302|I|main|Quits this driver, closing every associated window.
+2019-11-22 15:58:30,683|I|main|shutdown ends...
+2019-11-22 15:58:30,690|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 35 sec.
+| » Test Steps....: 7
+| » Passed........: 7
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core dev_0704-
+
+2019-11-22 15:58:30,693|I|main|ALL PASSED!
+2019-11-22 15:58:30,703|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\nexial\output\20191122_155742
+NEXIAL_EXECUTION_HTML: C:\projects\nexial\output\20191122_155742\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\nexial\output\20191122_155742\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

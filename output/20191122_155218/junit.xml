@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191122_155218" timestamp="2019-11-22T15:52:18" time="71.340" tests="36" errors="0">
+  <testsuite id="1001" name="1 MyFirstProject" package="1 MyFirstProject" hostname="ATMECSINLT-279" timestamp="2019-11-22T15:52:19" time="30.821" tests="7" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-279" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Balakrishna.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyFirstProject.xlsx" />
+      <property name="Logs" value="C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log" />
+      <property name="Data File" value="MyFirstProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default, HRM" />
+      <property name="runtime args" value="-plan C:\projects\nexial\artifact\plan\Test-plan.xlsx" />
+    </properties>
+    <testcase id="Macro-testing" name="Macro-testing" classname="HRM" timestamp="2019-11-22T15:52:23" time="27.264">
+      <system-out>Total : 7
+Passed: 7
+Failed: 0
+Output: C:\projects\nexial\output\20191122_155218\Test-plan.001,MyFirstProject.20191122_155219.001.xlsx
+Logs  : C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="2001" name="2 MyFirstProject" package="2 MyFirstProject" hostname="ATMECSINLT-279" timestamp="2019-11-22T15:52:54" time="12.130" tests="8" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-279" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Balakrishna.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyFirstProject.xlsx" />
+      <property name="Logs" value="C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log" />
+      <property name="runtime args" value="-plan C:\projects\nexial\artifact\plan\Test-plan.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="Data File" value="MyFirstProject.data.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-11-22T15:52:56" time="9.764">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+Logs  : C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log</system-out>
+    </testcase>
+    <testcase id="Sample" name="Sample" classname="Scenario" timestamp="2019-11-22T15:52:57" time="9.149">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+Logs  : C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log</system-out>
+    </testcase>
+    <testcase id="Macro-testing" name="Macro-testing" classname="Scenario" timestamp="2019-11-22T15:53:00" time="6.546">
+      <system-out>Total : 5
+Passed: 5
+Failed: 0
+Output: C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+Logs  : C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="3001" name="3 MyFirstProject" package="3 MyFirstProject" hostname="ATMECSINLT-279" timestamp="2019-11-22T15:53:09" time="17.671" tests="21" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINLT-279" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Balakrishna.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="MyFirstProject.xlsx" />
+      <property name="Logs" value="C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log" />
+      <property name="runtime args" value="-plan C:\projects\nexial\artifact\plan\Test-plan.xlsx" />
+      <property name="DataSheet(s)" value="#default, baseMethods" />
+      <property name="Data File" value="MyFirstProject.data.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="baseMethods" timestamp="2019-11-22T15:53:10" time="16.558">
+      <system-out>Total : 21
+Passed: 21
+Failed: 0
+Output: C:\projects\nexial\output\20191122_155218\Test-plan.003,MyFirstProject.20191122_155309.001.xlsx
+Logs  : C:\projects\nexial\output\20191122_155218\logs\nexial-20191122_155218.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

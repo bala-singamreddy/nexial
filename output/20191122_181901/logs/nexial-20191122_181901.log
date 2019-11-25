@@ -1,0 +1,41 @@
+2019-11-22 18:19:02,320|I|Thread-1|(DELAYED) nexial-core dev_0704 starting up...
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 18:19:02,327|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-11-22 18:19:02,328|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-11-22 18:19:02,328|I|Thread-1|(DELAYED) [20191122_181901] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20191122_181901
+2019-11-22 18:19:02,328|I|Thread-1|(DELAYED) [20191122_181901] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] new thread started
+2019-11-22 18:19:02,328|I|Thread-1|No predefined nexial-setup found
+2019-11-22 18:19:02,432|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-11-22 18:19:02,433|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-11-22 18:19:02,437|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-11-22 18:19:02,468|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-11-22 18:19:03,407|I|Thread-1|[20191122_181901] executing C:\projects\nexial\artifact\script\MyFirstProject.xlsx with 1 iteration(s)
+2019-11-22 18:19:03,412|I|Thread-1|[20191122_181901] create directory C:\projects\nexial\output\20191122_181901\captures
+2019-11-22 18:19:03,413|I|Thread-1|[20191122_181901] create directory C:\projects\nexial\output\20191122_181901\logs
+2019-11-22 18:19:05,213|I|Thread-1|macro(s) found and merged; C:\projects\nexial\output\20191122_181901\Test-plan.001,MyFirstProject.20191122_181903.001.xlsx will need to be saved
+2019-11-22 18:19:05,215|I|Thread-1|[20191122_181901] merging test data to tmp file C:\projects\nexial\output\20191122_181901\Test-plan.001,MyFirstProject.20191122_181903.001.xlsx
+2019-11-22 18:19:05,218|I|Thread-1|refetching data from C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 18:19:05,562|I|Thread-1|[20191122_181901] test script and test data merged to C:\projects\nexial\output\20191122_181901\Test-plan.001,MyFirstProject.20191122_181903.001.xlsx
+2019-11-22 18:19:06,713|I|Thread-1|STARTS
+2019-11-22 18:19:06,847|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001 - executing iteration #1 of 1; Iteration Id 2
+2019-11-22 18:19:06,860|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM - executing test scenario
+2019-11-22 18:19:06,863|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM|Macro-testing - executing activity
+2019-11-22 18:19:07,469|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM|Macro-testing|#  5|base.section(steps) - executing section(steps)(6)
+2019-11-22 18:19:07,496|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM|Macro-testing|#  5|base.section(steps) - PASS null
+2019-11-22 18:19:08,111|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM|Macro-testing|#  6|web.open(url) - executing open(url)(${hrmURL})
+2019-11-22 18:19:08,115|I|Thread-1|No valid instance of webdriver, initializing...
+2019-11-22 18:19:08,120|I|Thread-1|init chrome
+2019-11-22 18:19:14,719|I|Thread-1|browser initialization completed for 'chrome'
+2019-11-22 18:19:14,737|I|Thread-1|setting browser polling wait time to 800 ms
+2019-11-22 18:19:14,745|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-11-22 18:19:22,928|I|Thread-1|current browser window handle:CDwindow-BD901569C447FD2F339B3ABB021A196B
+2019-11-22 18:19:23,333|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM|Macro-testing|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-11-22 18:19:23,937|I|Thread-1|Test-plan.001,MyFirstProject.20191122_181903.001|HRM|Macro-testing|#  7|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${featuresBtn}, 3000)
+2019-11-22 18:19:24,011|I|Thread-1|clicking '//a[@href='/features/']'...
+2019-11-22 18:19:24,074|I|Thread-1|click target via JS, @id=
+2019-11-22 18:19:25,996|I|Thread-1|clicked -> true

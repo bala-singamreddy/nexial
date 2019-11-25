@@ -1,0 +1,267 @@
+2019-11-22 15:52:18,688|I|Thread-1|(DELAYED) nexial-core dev_0704 starting up...
+2019-11-22 15:52:18,694|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 15:52:18,694|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:52:18,694|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 15:52:18,694|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:52:18,695|I|Thread-1|(DELAYED) validating test script as C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+2019-11-22 15:52:18,695|I|Thread-1|(DELAYED) validating data file as C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:52:18,695|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-11-22 15:52:18,695|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-11-22 15:52:18,695|I|Thread-1|(DELAYED) [20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20191122_155218
+2019-11-22 15:52:18,695|I|Thread-1|(DELAYED) [20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] new thread started
+2019-11-22 15:52:18,695|I|Thread-1|No predefined nexial-setup found
+2019-11-22 15:52:18,828|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-11-22 15:52:18,828|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-11-22 15:52:18,828|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-11-22 15:52:18,844|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-11-22 15:52:19,806|I|Thread-1|[20191122_155218] executing C:\projects\nexial\artifact\script\MyFirstProject.xlsx with 1 iteration(s)
+2019-11-22 15:52:19,810|I|Thread-1|[20191122_155218] create directory C:\projects\nexial\output\20191122_155218\captures
+2019-11-22 15:52:19,811|I|Thread-1|[20191122_155218] create directory C:\projects\nexial\output\20191122_155218\logs
+2019-11-22 15:52:21,613|I|Thread-1|macro(s) found and merged; C:\projects\nexial\output\20191122_155218\Test-plan.001,MyFirstProject.20191122_155219.001.xlsx will need to be saved
+2019-11-22 15:52:21,614|I|Thread-1|[20191122_155218] merging test data to tmp file C:\projects\nexial\output\20191122_155218\Test-plan.001,MyFirstProject.20191122_155219.001.xlsx
+2019-11-22 15:52:21,614|I|Thread-1|refetching data from C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:52:21,966|I|Thread-1|[20191122_155218] test script and test data merged to C:\projects\nexial\output\20191122_155218\Test-plan.001,MyFirstProject.20191122_155219.001.xlsx
+2019-11-22 15:52:23,235|I|Thread-1|STARTS
+2019-11-22 15:52:23,353|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001 - executing iteration #1 of 1; Iteration Id 2
+2019-11-22 15:52:23,365|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM - executing test scenario
+2019-11-22 15:52:23,366|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing - executing activity
+2019-11-22 15:52:23,969|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  5|base.section(steps) - executing section(steps)(6)
+2019-11-22 15:52:23,990|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  5|base.section(steps) - PASS null
+2019-11-22 15:52:24,594|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  6|web.open(url) - executing open(url)(${hrmURL})
+2019-11-22 15:52:24,602|I|Thread-1|No valid instance of webdriver, initializing...
+2019-11-22 15:52:24,609|I|Thread-1|init firefox
+2019-11-22 15:52:30,010|I|Thread-1|browser initialization completed for 'firefox'
+2019-11-22 15:52:30,028|I|Thread-1|setting browser polling wait time to 800 ms
+2019-11-22 15:52:30,037|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-11-22 15:52:35,454|I|Thread-1|current browser window handle:18
+2019-11-22 15:52:36,022|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-11-22 15:52:36,638|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  7|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${featuresBtn}, 3000)
+2019-11-22 15:52:36,707|I|Thread-1|clicking '//a[@href='/features/']'...
+2019-11-22 15:52:36,804|I|Thread-1|click target via JS, @id=
+2019-11-22 15:52:36,896|I|Thread-1|clicked -> true
+2019-11-22 15:52:40,273|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  7|web.clickAndWait(locator, - PASS clicked-and-waited '//a[@href='/features/']'
+2019-11-22 15:52:40,896|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  8|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${sysAdminLink}, 3500)
+2019-11-22 15:52:40,928|I|Thread-1|clicking '//h4[text()='System Administration & User Roles']/parent::a'...
+2019-11-22 15:52:40,943|I|Thread-1|click target via JS, @id=
+2019-11-22 15:52:40,990|I|Thread-1|clicked -> true
+2019-11-22 15:52:44,616|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  8|web.clickAndWait(locator, - PASS clicked-and-waited '//h4[text()='System Administration & User Roles']/parent::a'
+2019-11-22 15:52:45,225|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  9|web.scrollTo(locator) - executing scrollTo(locator)(${requestQuoteBtn})
+2019-11-22 15:52:45,272|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|#  9|web.scrollTo(locator) - PASS scrolled to '//a[text()='Request A Quote']'
+2019-11-22 15:52:45,888|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|# 10|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${requestQuoteBtn}, 3000)
+2019-11-22 15:52:45,911|I|Thread-1|clicking '//a[text()='Request A Quote']'...
+2019-11-22 15:52:45,928|I|Thread-1|click target via JS, @id=
+2019-11-22 15:52:45,984|I|Thread-1|clicked -> true
+2019-11-22 15:52:49,219|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|# 10|web.clickAndWait(locator, - PASS clicked-and-waited '//a[text()='Request A Quote']'
+2019-11-22 15:52:49,819|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|# 11|web.assertText(locator,te - executing assertText(locator,text)(${requestQuoteText}, ${quoteAssert})
+2019-11-22 15:52:49,910|I|Thread-1|Test-plan.001,MyFirstProject.20191122_155219.001|HRM|Macro-testing|# 11|web.assertText(locator,te - PASS null
+2019-11-22 15:52:50,122|I|Thread-1|[Test-plan.001,MyFirstProject.20191122_155219.001|HRM] saving test scenario
+2019-11-22 15:52:50,525|I|Thread-1|[20191122_155218] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\nexial\output\20191122_155218\Test-plan.001,MyFirstProject.20191122_155219.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 27169 ms
+» Test Steps:     7
+» Error(s):       0
+
+
+
+2019-11-22 15:52:53,883|I|Thread-1|[20191122_155218] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 35493 ms
+» Iterations:     [2] total 1
+» Test Steps:     7
+» Passed:         7
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\nexial\output\20191122_155218\Test-plan.001,MyFirstProject.20191122_155219.001.xlsx
+
+
+
+2019-11-22 15:52:54,461|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] now completed
+2019-11-22 15:52:54,461|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20191122_155218
+2019-11-22 15:52:54,461|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] new thread started
+2019-11-22 15:52:54,492|I|Thread-5|missing REQUIRED configuration; sms DISABLED!
+2019-11-22 15:52:54,598|I|Thread-5|[20191122_155218] executing C:\projects\nexial\artifact\script\MyFirstProject.xlsx with 1 iteration(s)
+2019-11-22 15:52:54,598|I|Thread-5|[20191122_155218] create directory C:\projects\nexial\output\20191122_155218\captures
+2019-11-22 15:52:54,598|I|Thread-5|[20191122_155218] create directory C:\projects\nexial\output\20191122_155218\logs
+2019-11-22 15:52:55,903|I|Thread-5|macro(s) found and merged; C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx will need to be saved
+2019-11-22 15:52:55,903|I|Thread-5|[20191122_155218] merging test data to tmp file C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+2019-11-22 15:52:55,903|I|Thread-5|refetching data from C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:52:56,075|I|Thread-5|[20191122_155218] test script and test data merged to C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+2019-11-22 15:52:56,948|I|Thread-5|STARTS
+2019-11-22 15:52:56,964|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001 - executing iteration #1 of 1; Iteration Id 2
+2019-11-22 15:52:56,964|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario - executing test scenario
+2019-11-22 15:52:56,964|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Activity 1 - executing activity
+2019-11-22 15:52:57,565|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Activity 1|#  5|base.verbose(text) - executing verbose(text)(Hello World)
+2019-11-22 15:52:57,570|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Activity 1|#  5|base.verbose(text) - Hello World
+2019-11-22 15:52:57,577|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Activity 1|#  5|base.verbose(text) - PASS 
+2019-11-22 15:52:57,579|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Sample - executing activity
+2019-11-22 15:52:58,183|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Sample|#  6|web.open(url) - executing open(url)(https://www.google.com)
+2019-11-22 15:52:59,533|I|Thread-5|current browser window handle:18
+2019-11-22 15:52:59,548|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Sample|#  6|web.open(url) - PASS opened URL https://www.google.com
+2019-11-22 15:53:00,149|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Sample|#  7|web.maximizeWindow() - executing maximizeWindow()()
+2019-11-22 15:53:00,174|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Sample|#  7|web.maximizeWindow() - PASS browser window maximized
+2019-11-22 15:53:00,182|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing - executing activity
+2019-11-22 15:53:00,792|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|#  8|base.section(steps) - executing section(steps)(4)
+2019-11-22 15:53:00,792|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|#  8|base.section(steps) - PASS null
+2019-11-22 15:53:01,402|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|#  9|web.open(url) - executing open(url)(${gmailURL})
+2019-11-22 15:53:03,483|I|Thread-5|current browser window handle:18
+2019-11-22 15:53:03,499|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|#  9|web.open(url) - PASS opened URL https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2019-11-22 15:53:04,099|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|# 10|web.type(locator,value) - executing type(locator,value)(${usernameTextField}, ${username})
+2019-11-22 15:53:04,307|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|# 10|web.type(locator,value) - PASS typed text at '//input[@type='email']'
+2019-11-22 15:53:04,911|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|# 11|web.clickAndWait(locator, - executing clickAndWait(locator,waitMs)(${emaiNextButton}, 500)
+2019-11-22 15:53:04,930|I|Thread-5|clicking '//div[@id='identifierNext']/span/span'...
+2019-11-22 15:53:04,946|I|Thread-5|click target via JS, @id=
+2019-11-22 15:53:05,006|I|Thread-5|clicked -> true
+2019-11-22 15:53:05,796|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|# 11|web.clickAndWait(locator, - PASS clicked-and-waited '//div[@id='identifierNext']/span/span'
+2019-11-22 15:53:06,403|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|# 12|web.type(locator,value) - executing type(locator,value)(${passwordTextField}, ${password})
+2019-11-22 15:53:06,535|I|Thread-5|Test-plan.002,MyFirstProject.20191122_155254.001|Scenario|Macro-testing|# 12|web.type(locator,value) - PASS typed text at '//input[@type='password']'
+2019-11-22 15:53:06,600|I|Thread-5|[Test-plan.002,MyFirstProject.20191122_155254.001|Scenario] saving test scenario
+2019-11-22 15:53:06,669|I|Thread-5|[20191122_155218] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 9705 ms
+» Test Steps:     8
+» Error(s):       0
+
+
+
+2019-11-22 15:53:08,700|I|Thread-5|[20191122_155218] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 14205 ms
+» Iterations:     [2] total 1
+» Test Steps:     8
+» Passed:         8
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\nexial\output\20191122_155218\Test-plan.002,MyFirstProject.20191122_155254.001.xlsx
+
+
+
+2019-11-22 15:53:09,506|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] now completed
+2019-11-22 15:53:09,508|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] resolve RUN ID as 20191122_155218
+2019-11-22 15:53:09,511|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] new thread started
+2019-11-22 15:53:09,518|I|Thread-8|missing REQUIRED configuration; sms DISABLED!
+2019-11-22 15:53:09,533|I|Thread-8|[20191122_155218] executing C:\projects\nexial\artifact\script\MyFirstProject.xlsx with 1 iteration(s)
+2019-11-22 15:53:09,534|I|Thread-8|[20191122_155218] create directory C:\projects\nexial\output\20191122_155218\captures
+2019-11-22 15:53:09,534|I|Thread-8|[20191122_155218] create directory C:\projects\nexial\output\20191122_155218\logs
+2019-11-22 15:53:10,048|I|Thread-8|[20191122_155218] merging test data to tmp file C:\projects\nexial\output\20191122_155218\Test-plan.003,MyFirstProject.20191122_155309.001.xlsx
+2019-11-22 15:53:10,050|I|Thread-8|refetching data from C:\projects\nexial\artifact\data\MyFirstProject.data.xlsx
+2019-11-22 15:53:10,141|I|Thread-8|[20191122_155218] test script and test data merged to C:\projects\nexial\output\20191122_155218\Test-plan.003,MyFirstProject.20191122_155309.001.xlsx
+2019-11-22 15:53:10,631|I|Thread-8|STARTS
+2019-11-22 15:53:10,646|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001 - executing iteration #1 of 1; Iteration Id 2
+2019-11-22 15:53:10,646|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods - executing test scenario
+2019-11-22 15:53:10,646|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1 - executing activity
+2019-11-22 15:53:11,256|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  5|base.verbose(text) - executing verbose(text)(Hello World)
+2019-11-22 15:53:11,256|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  5|base.verbose(text) - Hello World
+2019-11-22 15:53:11,256|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  5|base.verbose(text) - PASS 
+2019-11-22 15:53:11,872|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  6|base.save(var,value) - executing save(var,value)(var1, ${cName})
+2019-11-22 15:53:11,891|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  6|base.save(var,value) - PASS stored 'Atmecs' as ${var1}
+2019-11-22 15:53:12,501|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  7|base.verbose(text) - executing verbose(text)(${var1})
+2019-11-22 15:53:12,507|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  7|base.verbose(text) - Atmecs
+2019-11-22 15:53:12,511|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  7|base.verbose(text) - PASS 
+2019-11-22 15:53:13,120|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  8|base.appendText(var,appen - executing appendText(var,appendWith)(var1, Technologies,Hyderabad)
+2019-11-22 15:53:13,120|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  8|base.appendText(var,appen - PASS appended 'Technologies,Hyderabad' to ${var1}
+2019-11-22 15:53:13,720|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  9|base.assertEqual(expected - executing assertEqual(expected,actual)(${var1}, AtmecsTechnologies,Hyderabad)
+2019-11-22 15:53:13,730|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|#  9|base.assertEqual(expected - PASS validated EXPECTED = ACTUAL; 'AtmecsTechnologies,Hyderabad' = 'AtmecsTechnologies,Hyderabad'
+2019-11-22 15:53:14,341|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 10|base.split(text,delim,sav - executing split(text,delim,saveVar)(${var1}, ,, array1)
+2019-11-22 15:53:14,341|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 10|base.split(text,delim,sav - PASS stored transformed array as ${array1}
+2019-11-22 15:53:14,941|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 11|base.verbose(text) - executing verbose(text)(${array1}[0])
+2019-11-22 15:53:14,950|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 11|base.verbose(text) - AtmecsTechnologies
+2019-11-22 15:53:14,960|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 11|base.verbose(text) - PASS 
+2019-11-22 15:53:15,569|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 12|base.assertArrayContain(a - executing assertArrayContain(array,expected)(${array1}, ${city})
+2019-11-22 15:53:15,569|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 12|base.assertArrayContain(a - PASS All items in 'expected' are found in 'array'
+2019-11-22 15:53:16,194|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 13|base.assertArrayEqual(arr - executing assertArrayEqual(array1,array2,exactOrder)(${array1}, ${array2}, true)
+2019-11-22 15:53:16,194|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 13|base.assertArrayEqual(arr - PASS validated ACTUAL [AtmecsTechnologies,Hyderabad] = [AtmecsTechnologies,Hyderabad] as EXPECTED
+2019-11-22 15:53:16,809|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 14|base.assertArrayNotContai - executing assertArrayNotContain(array,unexpected)(${array1}, Ltd)
+2019-11-22 15:53:16,819|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 14|base.assertArrayNotContai - PASS All items in 'unexpected' are NOT found in 'array'
+2019-11-22 15:53:17,426|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 15|base.assertContains(text, - executing assertContains(text,substring)(${var1}, Hyderabad)
+2019-11-22 15:53:17,437|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 15|base.assertContains(text, - PASS validated text 'AtmecsTechnologies,Hyderabad' contains 'Hyderabad'
+2019-11-22 15:53:18,054|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 16|base.assertNotContain(tex - executing assertNotContain(text,substring)(${var1}, Ltd)
+2019-11-22 15:53:18,054|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 16|base.assertNotContain(tex - PASS validated text 'AtmecsTechnologies,Hyderabad' does NOT contains 'Ltd'
+2019-11-22 15:53:18,655|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 17|base.saveReplace(text,reg - executing saveReplace(text,regex,replace,saveVar)(${var1}, ,, *, var2)
+2019-11-22 15:53:18,775|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 17|base.saveReplace(text,reg - PASS matches replaced and stored to variable var2
+2019-11-22 15:53:19,380|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 18|base.assertEqual(expected - executing assertEqual(expected,actual)(${var2}, AtmecsTechnologies*Hyderabad)
+2019-11-22 15:53:19,390|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 18|base.assertEqual(expected - PASS validated EXPECTED = ACTUAL; 'AtmecsTechnologies*Hyderabad' = 'AtmecsTechnologies*Hyderabad'
+2019-11-22 15:53:19,998|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 19|web.open(url) - executing open(url)(https://www.google.com)
+2019-11-22 15:53:21,047|I|Thread-8|current browser window handle:18
+2019-11-22 15:53:21,059|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 19|web.open(url) - PASS opened URL https://www.google.com
+2019-11-22 15:53:21,668|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 20|web.assertAttribute(locat - executing assertAttribute(locator,attrName,value)(${googleSearch}, value, Google Search)
+2019-11-22 15:53:21,715|I|Thread-8|Element '(//input[@value='Google Search'])[2]' attribute 'value' yielded 'Google Search'
+2019-11-22 15:53:21,730|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 20|web.assertAttribute(locat - PASS validated EXPECTED = ACTUAL; 'Google Search' = 'Google Search'
+2019-11-22 15:53:22,340|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 21|web.assertAttributeContai - executing assertAttributeContain(locator,attrName,contains)(${googleSearch}, value, Search)
+2019-11-22 15:53:22,386|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 21|web.assertAttributeContai - PASS Attribute 'value' of element '(//input[@value='Google Search'])[2]' CONTAINS 'Search', as EXPECTED
+2019-11-22 15:53:23,018|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 22|web.assertAttributeNotCon - executing assertAttributeNotContain(locator,attrName,contains)(${googleSearch}, value, Searches)
+2019-11-22 15:53:23,072|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 22|web.assertAttributeNotCon - PASS Attribute 'value' of element '(//input[@value='Google Search'])[2]' DOES NOT contains 'Searches', as EXPECTED
+2019-11-22 15:53:23,680|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 23|web.rightClick(locator) - executing rightClick(locator)(${googleSearch})
+2019-11-22 15:53:24,102|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 23|web.rightClick(locator) - PASS right-clicked on '(//input[@value='Google Search'])[2]'
+2019-11-22 15:53:24,702|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 24|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${googleSearch}, {F11})
+2019-11-22 15:53:25,547|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 24|web.typeKeys(locator,valu - PASS typed text at '(//input[@value='Google Search'])[2]'
+2019-11-22 15:53:26,167|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 25|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${googleSearch}, {ENTER})
+2019-11-22 15:53:26,988|I|Thread-8|Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods|Activity 1|# 25|web.typeKeys(locator,valu - PASS typed text at '(//input[@value='Google Search'])[2]'
+2019-11-22 15:53:27,069|I|Thread-8|[Test-plan.003,MyFirstProject.20191122_155309.001|baseMethods] saving test scenario
+2019-11-22 15:53:27,156|I|Thread-8|[20191122_155218] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\nexial\output\20191122_155218\Test-plan.003,MyFirstProject.20191122_155309.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 16509 ms
+» Test Steps:     21
+» Error(s):       0
+
+
+
+2019-11-22 15:53:29,138|I|Thread-8|[20191122_155218] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\nexial\artifact\script\MyFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 19622 ms
+» Iterations:     [2] total 1
+» Test Steps:     21
+» Passed:         21
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\nexial\output\20191122_155218\Test-plan.003,MyFirstProject.20191122_155309.001.xlsx
+
+
+
+2019-11-22 15:53:29,589|I|main|[20191122_155218] [C:\projects\nexial\artifact\script\MyFirstProject.xlsx] now completed
+2019-11-22 15:53:29,591|I|main|[20191122_155218] all execution thread(s) have terminated
+2019-11-22 15:53:29,593|I|main|[20191122_155218] test run completed in about 71 seconds
+2019-11-22 15:53:29,731|I|main|No predefined nexial-setup found
+2019-11-22 15:53:29,834|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-11-22 15:53:29,836|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-11-22 15:53:29,839|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-11-22 15:53:29,840|I|main|generating HTML output for this execution to C:\projects\nexial\output\20191122_155218\execution-output.html
+2019-11-22 15:53:30,793|I|main|generating JUnit XML output for this execution to C:\projects\nexial\output\20191122_155218\junit.xml
+2019-11-22 15:53:30,849|I|main|generated JUnit report for this execution: C:\projects\nexial\output\20191122_155218\junit.xml
+2019-11-22 15:53:30,960|I|main|Sending email to [balusingamreddy@yahoo.com]
+2019-11-22 15:53:36,378|E|main|Unable to send out notification email: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e8sm6203625pgj.80 - gsmtp
+
+2019-11-22 15:53:36,380|I|main|exiting Nexial...
+2019-11-22 15:53:36,381|I|main|shutdown starts...
+2019-11-22 15:53:36,384|I|main|Shutting down 'firefox' webdriver...
+2019-11-22 15:53:37,386|I|main|Quits this driver, closing every associated window.
+2019-11-22 15:53:41,306|I|main|shutdown ends...
+2019-11-22 15:53:41,307|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 71 sec.
+| » Test Steps....: 36
+| » Passed........: 36
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core dev_0704-
+
+2019-11-22 15:53:41,308|I|main|ALL PASSED!
+2019-11-22 15:53:41,308|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\nexial\output\20191122_155218
+NEXIAL_EXECUTION_HTML: C:\projects\nexial\output\20191122_155218\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\nexial\output\20191122_155218\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0
